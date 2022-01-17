@@ -14,10 +14,7 @@ h1 {
 
 body {
     background-color: rgb(160, 240, 240);
-    border-right: black outset 30px;
-    border-left: black outset 30px;
-    border-top: black outset 30px;
-    border-bottom: black outset 30px;
+    border: black outset 30px;
 }
 
 div {
