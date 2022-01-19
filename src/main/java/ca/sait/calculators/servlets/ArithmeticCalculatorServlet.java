@@ -51,6 +51,10 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
             } else {
                 request.setAttribute("result", (double)num1 / num2);
             }
+            
+            request.setAttribute("firstvalue", num1);
+            request.setAttribute("secondvalue", num2);
+        
         } catch(Exception ex) {
             request.setAttribute("result", "invalid");
         }

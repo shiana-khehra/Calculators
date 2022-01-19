@@ -19,10 +19,10 @@
         <form action="arithmetic" method="post">
             
         <label for="firstnum">First: </label>
-        <input type="number" name="firstnum" id="firstnum"> <br> <br>
+        <input type="number" name="firstnum" id="firstnum" value=${firstvalue}> <br> <br>
         
         <label for="secondnum">Second: </label>
-        <input type="number" name="secondnum" id="secondnum"> <br> <br>
+        <input type="number" name="secondnum" id="secondnum" value=${secondvalue}> <br> <br>
         
         <button type="submit" name="operator" value="addition">+</button>
         <button type="submit" name="operator" value="subtraction">-</button>
